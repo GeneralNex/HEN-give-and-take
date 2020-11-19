@@ -1,4 +1,10 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
+}
+body {
+	background: #322E3F;
+}
+.main_nav ul {
+	font-size: 38px;
 }
