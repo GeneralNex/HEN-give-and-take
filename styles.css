@@ -12,12 +12,13 @@ body {
 }
 header {
 	position: relative;
-	padding-top: 20px;
 	background-color: #BDC3C7;
 }
 .logo {
 	position: relative;
-	left: 	100px;
+	left: 80px;
+	width: 10%;
+	height: 10%;
 }
 header h1 {
 	color: #24272E;
