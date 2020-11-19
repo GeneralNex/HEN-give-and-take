@@ -65,6 +65,13 @@ section.advertisements {
 	margin-top: 10px;
 	font-size: 20px;
 }
+.subscribe input:focus {
+	border: 2px solid black;
+	outline: none;
+}
+.subscribe input:valid {
+	border: 2px solid #2ECC71;
+}
 .socials {
 	position: absolute;
 	top: 200px;
