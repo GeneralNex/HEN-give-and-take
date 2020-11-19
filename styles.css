@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
 	margin: 0px;
 	padding: 0px;
@@ -10,6 +7,9 @@ body {
 	font-family: Arial;
 	color: white;
 }
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 header {
 	position: relative;
 	padding-top: 20px;
@@ -95,7 +95,10 @@ section.advertisements {
 =======
 	background: #322E3F;
 }
+<<<<<<< HEAD
 .main_nav ul {
 	font-size: 38px;
 }
 >>>>>>> 750b8009a5323cfd510c084c4091c3e8c68e4209
+=======
+>>>>>>> 5b92f611ec09c6fd6e59c2c4d915b279b81c0016
