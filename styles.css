@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
 	margin: 0px;
@@ -22,7 +21,7 @@ header {
 }
 header h1 {
 	color: #24272E;
-	font-family: Asap, sans-serif;
+	font-family: Asap;
 	position: absolute;
 	top: 38px;
 	right: 100px;
@@ -46,12 +45,19 @@ nav ul li a{
 nav ul li a:hover{
 	color: gray;
 }
+main {
+	position: relative;
+}
+.recommendation {
+	position: absolute;
+}
 section.advertisements {
 	position: relative;
+	margin-top: 16px;
 }
 .subscribe {
 	position: absolute;
-	right: 70px;
+	right: 50px;
 	background-color: gray;
 	border: 4px solid gray;
 	border-radius: 4px;
@@ -66,19 +72,28 @@ section.advertisements {
 	font-size: 20px;
 }
 .subscribe input:focus {
-	border: 2px solid black;
 	outline: none;
+	outline: 3px solid #000000;
 }
 .subscribe input:valid {
-	border: 2px solid #2ECC71;
+	outline: 3px solid #2ECC71;
 }
-.subscribe input:invalid {
-	border: 2px solid #F9245E;
+.subscribe span {
+	padding: 2px;
+	font-size: 13px;
+	position: absolute;
+	right: 12px;
+	bottom: 3px;
+	font-family: "Asap";
+	font-weight: bold;
+	background-color: #BDC3C7;
+	color: #24272E;
+	border-radius: 3px;
 }
 .socials {
 	position: absolute;
 	top: 200px;
-	right: 130px;
+	right: 110px;
 	font-family: Asap;
 	font-size: 25px;
 	text-align: center;
