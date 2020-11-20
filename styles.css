@@ -72,6 +72,9 @@ section.advertisements {
 .subscribe input:valid {
 	border: 2px solid #2ECC71;
 }
+.subscribe input:invalid {
+	border: 2px solid #F9245E;
+}
 .socials {
 	position: absolute;
 	top: 200px;
