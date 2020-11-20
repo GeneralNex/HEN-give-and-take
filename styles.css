@@ -12,12 +12,13 @@ body {
 }
 header {
 	position: relative;
-	padding-top: 20px;
 	background-color: #BDC3C7;
 }
 .logo {
 	position: relative;
-	left: 	100px;
+	left: 80px;
+	width: 10%;
+	height: 10%;
 }
 header h1 {
 	color: #24272E;
@@ -63,6 +64,16 @@ section.advertisements {
 	height: 30px;
 	margin-top: 10px;
 	font-size: 20px;
+}
+.subscribe input:focus {
+	border: 2px solid black;
+	outline: none;
+}
+.subscribe input:valid {
+	border: 2px solid #2ECC71;
+}
+.subscribe input:invalid {
+	border: 2px solid #F9245E;
 }
 .socials {
 	position: absolute;
