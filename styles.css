@@ -50,6 +50,11 @@ main {
 }
 .recommendation {
 	position: absolute;
+	margin: 20px;
+}
+.recommendation li img{
+	width: 35%;
+	display: inline-block;
 }
 section.advertisements {
 	position: relative;
