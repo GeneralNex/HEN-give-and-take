@@ -6,7 +6,7 @@
 }
 body {
 	background: #1C2833;
-	font-family: Arial;
+	font-family: Asap;
 	color: white;
 }
 header {
@@ -30,8 +30,9 @@ header h1 {
 nav {
 	text-align: center;
 	white-space: nowrap;
-	margin: 10px auto;
+	padding: 10px;
 	font-family: Asap;
+	background-color: #34495E;
 }
 nav li {
 	width: 22%;
@@ -45,16 +46,63 @@ nav ul li a{
 nav ul li a:hover{
 	color: gray;
 }
+.nav_break {
+	height: 2px;
+	background-color: #FFFFFF;
+}
 main {
 	position: relative;
 }
 .recommendation {
 	position: absolute;
-	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 60%;
+	height: 350px;
+	background-color: #212F3C;
 }
-.recommendation li img{
-	width: 35%;
-	display: inline-block;
+.recommendation h1 {
+	margin-left: 7px;
+	margin-bottom: 7px;
+}
+.recommendation .r_break {
+	height: 1px;
+	background-color: #D7DBDD;
+}
+.recommendation .r1 {
+	position: absolute;
+	margin-left: 23px;
+	margin-top: 13px;
+}
+.recommendation .r1 a img {
+	width: 45%;
+}
+.recommendation .r1 a img:hover {
+	position: relative;
+	bottom: 2px;
+}
+.recommendation .r2 {
+	position: relative;
+	left: 500px;
+	margin-top: 13px;
+	margin-right: 37px;
+}
+.recommendation .r2 a img {
+	width: 45%;
+	height: 16.2em;
+}
+.recommendation .r2 a img:hover {
+	position: relative;
+	bottom: 2px;
+}
+.recommendation .title {
+	text-decoration: none;
+	font-family: Asap;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.recommendation .title:hover {
+	text-decoration: underline;
 }
 section.advertisements {
 	position: relative;
