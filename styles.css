@@ -1,173 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 body {
-	background: #1C2833;
-	font-family: Asap;
-	color: white;
+  background: #1c2833;
+  font-family: Asap;
+  color: white;
 }
 header {
-	position: relative;
-	background-color: #BDC3C7;
+  position: relative;
+  background-color: #bdc3c7;
 }
 .logo {
-	position: relative;
-	left: 80px;
-	width: 10%;
-	height: 10%;
+  position: relative;
+  left: 80px;
+  width: 10%;
+  height: 10%;
 }
 header h1 {
-	color: #24272E;
-	font-family: Asap;
-	position: absolute;
-	top: 38px;
-	right: 100px;
-	font-size: 60px;
+  color: #24272e;
+  font-family: Asap;
+  position: absolute;
+  top: 38px;
+  right: 100px;
+  font-size: 60px;
 }
 nav {
-	text-align: center;
-	white-space: nowrap;
-	padding: 10px;
-	font-family: Asap;
-	background-color: #34495E;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px;
+  font-family: Asap;
+  background-color: #34495e;
 }
 nav li {
-	width: 22%;
-    display: inline-block;
-    font-size: 24px;
+  width: 22%;
+  display: inline-block;
+  font-size: 24px;
 }
-nav ul li a{
-	text-decoration: none;
-	color: #FFFFFF;
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }
-nav ul li a:hover{
-	color: gray;
+nav ul li a:hover {
+  color: gray;
 }
 .nav_break {
-	height: 2px;
-	background-color: #FFFFFF;
+  height: 2px;
+  background-color: #ffffff;
 }
 main {
-	position: relative;
+  position: relative;
 }
 .recommendation {
-	position: absolute;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	width: 60%;
-	height: 350px;
-	background-color: #212F3C;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 60%;
+  height: 350px;
+  background-color: #212f3c;
 }
 .recommendation h1 {
-	margin-left: 7px;
-	margin-bottom: 7px;
+  margin-left: 7px;
+  margin-bottom: 7px;
 }
 .recommendation .r_break {
-	height: 1px;
-	background-color: #D7DBDD;
+  height: 1px;
+  background-color: #d7dbdd;
 }
 .recommendation .r1 {
-	position: absolute;
-	margin-left: 23px;
-	margin-top: 13px;
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 13px;
 }
 .recommendation .r1 a img {
-	width: 45%;
+  width: 45%;
 }
 .recommendation .r1 a img:hover {
-	position: relative;
-	bottom: 2px;
+  position: relative;
+  bottom: 2px;
 }
 .recommendation .r2 {
-	position: relative;
-	left: 500px;
-	margin-top: 13px;
-	margin-right: 37px;
+  position: relative;
+  left: 500px;
+  margin-top: 13px;
+  margin-right: 37px;
 }
 .recommendation .r2 a img {
-	width: 45%;
-	height: 16.2em;
+  width: 45%;
+  height: 16.2em;
 }
 .recommendation .r2 a img:hover {
-	position: relative;
-	bottom: 2px;
+  position: relative;
+  bottom: 2px;
 }
 .recommendation .title {
-	text-decoration: none;
-	font-family: Asap;
-	font-size: 18px;
-	color: #FFFFFF;
+  text-decoration: none;
+  font-family: Asap;
+  font-size: 18px;
+  color: #ffffff;
 }
 .recommendation .title:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 section.advertisements {
-	position: relative;
-	margin-top: 16px;
+  position: relative;
+  margin-top: 16px;
 }
 .subscribe {
-	position: absolute;
-	right: 50px;
-	background-color: gray;
-	border: 4px solid gray;
-	border-radius: 4px;
-	padding: 12px;
-	font-size: 25px;
-	font-family: Ubuntu;
+  position: absolute;
+  right: 50px;
+  background-color: gray;
+  border: 4px solid gray;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 25px;
+  font-family: Ubuntu;
 }
 .subscribe input {
-	width: 100%;
-	height: 30px;
-	margin-top: 10px;
-	font-size: 20px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 .subscribe input:focus {
-	outline: none;
-	outline: 3px solid #000000;
+  outline: none;
+  outline: 3px solid #000000;
 }
 .subscribe input:valid {
-	outline: 3px solid #2ECC71;
+  outline: 3px solid #2ecc71;
 }
 .subscribe span {
-	padding: 2px;
-	font-size: 13px;
-	position: absolute;
-	right: 12px;
-	bottom: 3px;
-	font-family: "Asap";
-	font-weight: bold;
-	background-color: #BDC3C7;
-	color: #24272E;
-	border-radius: 3px;
+  padding: 2px;
+  font-size: 13px;
+  position: absolute;
+  right: 12px;
+  bottom: 3px;
+  font-family: "Asap";
+  font-weight: bold;
+  background-color: #bdc3c7;
+  color: #24272e;
+  border-radius: 3px;
 }
 .socials {
-	position: absolute;
-	top: 200px;
-	right: 110px;
-	font-family: Asap;
-	font-size: 25px;
-	text-align: center;
-	margin: 20px auto;
+  position: absolute;
+  top: 200px;
+  right: 110px;
+  font-family: Asap;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px auto;
 }
-.socials li{
-	width: 30%;
-	display: inline-block;
+.socials li {
+  width: 30%;
+  display: inline-block;
 }
-.socials li a img{
-	margin: auto 10px;
+.socials li a img {
+  margin: auto 10px;
 }
-.socials li a img#Facebook{
-	width: 100px;
-	height: 100px;
+.socials li a img#Facebook {
+  width: 100px;
+  height: 100px;
 }
-.socials li a img#Instagram{
-	width: 102px;
-	height: 102px;
+.socials li a img#Instagram {
+  width: 102px;
+  height: 102px;
 }
-.socials li a img#Youtube{
-	width: 110px;
-	height: 110px;
+.socials li a img#Youtube {
+  width: 110px;
+  height: 110px;
 }
