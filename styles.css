@@ -104,6 +104,9 @@ main {
 .recommendation .title:hover {
   text-decoration: underline;
 }
+.history {
+  background-color: #212f3c;
+}
 section.advertisements {
   position: relative;
   margin-top: 16px;
