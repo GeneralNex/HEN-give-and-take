@@ -4,22 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hen:give and take</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="header.css">
 </head>
 <body>
 	<header>
 		<img src="images/icons/main_icon.png" alt="" class="logo">
 		<h1>Welcome to Hen: Give and Take</h1>
-	</header>
 		<nav>
-			<ul>
-				<li><a href="article.html">Articles</a></li>
-				<li><a href="note.html">Notes</a></li>
-				<li><a href="contact.html">Contact us</a></li>
-				<li><a href="new.html">Whats new</a></li>
-			</ul>
+			<a href="article.html">Articles</a>
+			<a href="note.html">Notes</a>
+			<a href="contact.html">Contact us</a>
+			<a href="new.html">Whats new</a>
 		</nav>
 		<hr class="nav_break">
+	</header>
 	<main>
 		<div class="recommendation">
 			<h1>Hot Uploads</h1>
@@ -33,28 +31,31 @@
 				<a href="https://courses.lumenlearning.com/physics/chapter/3-4-projectile-motion/" class="title">Learn everything you need to know about<br>kinematics projectile for heghschool</a>
 			</div>
 		</div>
+		<section class="advertisements">
+			<div class="subscribe">
+				<h2>Get an email whenever we <br>upload something new</h2>
+				<form>
+					<input type="email" placeholder="Enter your email address" required="">
+					<button onclick="submit()" class="submitButton">Subscribe</span>
+				</form>
+			</div>
+			<div class="socials">
+				<h2>Socials</h2>
+				<ul>
+					<li><a href=""><img src="images/icons/facebook_icon.png" id="Facebook"></a></li>
+					<li><a href=""><img src="images/icons/instagram_icon.png" id="Instagram"></a></li>
+					<li><a href=""><img src="images/icons/youtube_icon.png" id="Youtube"></a></li>
+				</ul>
+			</div>
+		</section>
 		<div class="history">
-			<div class="thumbnail h1"></div>
-			<div class="thumbnail h2"></div>
-			<div class="thumbnail h3"></div>
+			<div class="thumbnail h1">most recent</div>
+			<div class="thumbnail h2">more recent</div>
+			<div class="thumbnail h3">just recent</div>
 		</div>
 	</main>
-		<section class="advertisements">
-		<div class="subscribe">
-			<h2>Get an email whenever we <br>upload something new</h2>
-			<form>
-				<input type="email" placeholder="Enter your email address" required="">
-				<span>Wait for green outline to submit</span>
-			</form>
-		</div>
-		<div class="socials">
-			<h2>Socials</h2>
-			<ul>
-				<li><a href=""><img src="images/icons/facebook_icon.png" id="Facebook"></a></li>
-				<li><a href=""><img src="images/icons/instagram_icon.png" id="Instagram"></a></li>
-				<li><a href=""><img src="images/icons/youtube_icon.png" id="Youtube"></a></li>
-			</ul>
-		</div>
-	</section>
+	<footer>
+		<h2>Copyright Sujal Bajracharya</h2>
+	</footer>
 </body>
 </html>

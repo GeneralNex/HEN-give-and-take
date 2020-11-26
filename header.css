@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+	background-color: #BDC3C7;
+	font-family: Asap;
+	position: relative;
+}
+header .logo {
+	width: 150px;
+	position: relative;
+	left: 70px;
+}
+header h1 {
+	position: absolute;
+	top: 40px;
+	right: 80px;
+	font-size: 60px;
+}
+header nav {
+	background-color: #34495E;
+	/*padding: 10px;*/
+	height: 50px;
+	text-align: center;
+}
+header nav a {
+	width: 22%;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 27px;
+}
+header nav a:hover {
+	color: #808080;
+	font-size: 33px;
+	transition: 0.5s;
+}
