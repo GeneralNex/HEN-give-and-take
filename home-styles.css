@@ -7,14 +7,17 @@
 .recommendation h1 {
 	margin-left: 13px;
 	margin-bottom: 7px;
+	font-size: 30px;
 }
 .recommendation .r1 {
 	width: 37%;
 	margin: 13px;
+	float: left;
 }
 .recommendation .r2 {
 	width: 37%;
 	margin: 13px;
+	float: right;
 }
 .recommendation .apple_chip{
 	width: 100%;
