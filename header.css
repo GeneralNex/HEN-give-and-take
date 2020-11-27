@@ -5,25 +5,32 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+	background-color: #1C2833;
+	font-family: Asap;
+	color: #FFFFFF;
+}
 header {
 	background-color: #BDC3C7;
-	font-family: Asap;
 	position: relative;
 }
 header .logo {
 	width: 150px;
 	position: relative;
 	left: 70px;
+	float: left;
 }
 header h1 {
-	position: absolute;
-	top: 40px;
-	right: 80px;
+	width: 55%;
+	margin-top: 2.5%;
+	margin-right: 6%;
 	font-size: 60px;
+	color: #24272E;
+	float: right;
 }
 header nav {
+	clear: both;
 	background-color: #34495E;
-	/*padding: 10px;*/
 	height: 50px;
 	text-align: center;
 }
@@ -34,9 +41,13 @@ header nav a {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 27px;
+	transition: font-size 0.6s;
 }
 header nav a:hover {
 	color: #808080;
 	font-size: 33px;
-	transition: 0.5s;
+}
+header .nav_break {
+	height: 2px;
+	background-color: #FFFFFF;
 }

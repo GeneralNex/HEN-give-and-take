@@ -1,0 +1,43 @@
+.recommendation {
+	width: 63%;
+	padding-top: 10px;
+	float: left;
+	/*background-color: #212F3C;*/
+}
+.recommendation h1 {
+	margin-left: 13px;
+	margin-bottom: 7px;
+}
+.recommendation .r1 {
+	width: 37%;
+	margin: 13px;
+}
+.recommendation .r2 {
+	width: 37%;
+	margin: 13px;
+}
+.recommendation .apple_chip{
+	width: 100%;
+}
+.recommendation .projectile{
+	width: 100%;
+}
+.recommendation .title {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.history {
+	clear: both;
+}
+.Facebook {
+	float: left;
+	width: 10%;
+}
+.Instagram {
+	float: left;
+	width: 10%;
+}
+.Youtube {
+	float: left;
+	width: 10%;
+}	
