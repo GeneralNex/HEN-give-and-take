@@ -2,35 +2,44 @@
 	width: 63%;
 	padding-top: 10px;
 	float: left;
-	/*background-color: #212F3C;*/
+	background-color: #212F3C;
 }
 .recommendation h1 {
 	margin-left: 13px;
 	margin-bottom: 7px;
 	font-size: 30px;
 }
+.recommendation div {
+	display: inline-block;
+}
 .recommendation .r1 {
-	width: 37%;
+	width: 44.5%;
 	margin: 13px;
-	float: left;
 }
 .recommendation .r2 {
-	width: 37%;
+	width: 49%;
 	margin: 13px;
-	float: right;
 }
 .recommendation .apple_chip{
 	width: 100%;
+	transition: 1s outline;
 }
 .recommendation .projectile{
 	width: 100%;
+	transition: 1s outline;
 }
 .recommendation .title {
 	text-decoration: none;
 	color: #FFFFFF;
 }
-.history {
-	clear: both;
+.recommendation .apple_chip:hover {
+	outline: 4px solid #D3D3D3;
+}
+.recommendation .projectile:hover {
+	outline: 4px solid #BDC3C7;
+}
+.recommendation .title:hover {
+	text-decoration: underline;
 }
 .Facebook {
 	float: left;
@@ -44,3 +53,6 @@
 	float: left;
 	width: 10%;
 }	
+.history {
+	clear: both;
+}
