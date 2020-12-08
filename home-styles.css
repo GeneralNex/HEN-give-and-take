@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+	font-family: Asap;
+}
+main {
+	position: relative;
+}
 .recommendation {
 	width: 63%;
 	padding-top: 10px;
-	float: left;
 	background-color: #212F3C;
 }
 .recommendation h1 {
@@ -22,10 +29,12 @@
 }
 .recommendation .apple_chip{
 	width: 100%;
+	height: 250px;
 	transition: 1s outline;
 }
 .recommendation .projectile{
 	width: 100%;
+	height: 250px;
 	transition: 1s outline;
 }
 .recommendation .title {
@@ -41,18 +50,88 @@
 .recommendation .title:hover {
 	text-decoration: underline;
 }
+.advertisements {
+	position: absolute;
+	top: 0px;
+	right: -305px;
+ 	margin: 20px;
+ 	font-family: Ubuntu;
+}
+.subscribe {
+	position: relative;
+	left: 25px;
+	width: 60%;
+	background-color: #A0A0A0;
+	border-radius: 13px;
+	padding: 6px;
+}
+.advertisements form {
+	font-size: 25px;
+	text-align: center;
+}
+.advertisements form input {
+	width: 100%;
+	height: 30px;
+}
+.advertisements form input:focus {
+	outline: none;
+	outline: 2px solid black;
+}
+.advertisements form input:valid {
+	outline: none;
+	outline: 2px solid green;
+}
+.advertisements form button {
+	width: 20%;
+	height: 25px;
+	border-radius: 7px;
+	font-size: 20px;
+	color: #07080A;
+	background-color: #94A1AA;
+}
+.socials {
+	position: relative;
+	left: 70px;
+	margin: 8px auto;
+	font-size: 20px;
+}
+.socials h2 {
+	position: relative;
+	left: 165px;
+}
 .Facebook {
-	float: left;
-	width: 10%;
+	width: 16%;
 }
 .Instagram {
-	float: left;
-	width: 10%;
+	width: 16.5%;
 }
 .Youtube {
-	float: left;
-	width: 10%;
+	width: 17%;
 }	
 .history {
-	clear: both;
+	margin: 30px;
+}
+.thumbnail {
+	width: 22%;
+	height: 200px;
+	background-color: #D6E9F6;
+	margin: 10px;
+	display: inline-block;
+	color: #202330;
+	font-size: 30px;
+}
+.h {
+	position: relative;
+	left: 80px;
+	top: 80px;
+}
+.h1 {
+	position: relative;
+	left: 60px;
+	top: 80px;
+}
+footer {
+	text-align: center;
+	background-color: #393939;
+	padding: 10px;
 }
